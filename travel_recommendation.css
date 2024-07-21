@@ -149,3 +149,13 @@ footer {
 .search-bar button:hover {
     background-color: #ff5733;
 }
+
+/* Specific styles for the clear button */
+#clear {
+    background-color: #ccc;
+    color: black;
+}
+
+#clear:hover {
+    background-color: #999;
+}

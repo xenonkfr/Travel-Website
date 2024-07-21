@@ -3,7 +3,7 @@ var result = document.querySelector("#destinations");
 var hero = document.querySelector("#hero");
 
 
-document.querySelector(".search-bar button").addEventListener('click',function(){
+document.querySelector("#search").addEventListener('click',function(){
 	
 	
 	var input = document.querySelector(".search-bar input").value.toLowerCase();
@@ -75,3 +75,9 @@ function search(data){
 	
 	
 }
+
+
+document.querySelector("#clear").addEventListener('click',function(){
+	
+	document.querySelector(".search-bar input").value = "";
+});
