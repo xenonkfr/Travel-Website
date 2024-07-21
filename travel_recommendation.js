@@ -47,8 +47,14 @@ function search(data){
 	var destinations_grid = document.querySelector(".destinations-grid");
 	destinations_grid.innerHTML = "";
 	
-	/* if(data == null)
-		destinations_grid.innerHTML = `<p><b>No result found</b></p>`; */
+	if(data == null){
+		destinations_grid.innerHTML = ` 
+			<div class="destinations-grid">
+				<p><b>No result found</b></p>       
+			</div>
+		`;
+		return;
+	}
 	
 	data.forEach((city)=>{
 		console.log(city.name);
