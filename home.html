@@ -12,19 +12,18 @@
 		
 		<div class="search-bar">
                 <input type="text" placeholder="Search...">
-                <button type="submit">Search</button>
+                <button id="search" type="submit">Search</button>
             </div>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#destinations">Destinations</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li id="home"><a href="home.html">Home</a></li>
+                <li id="about"><a href="about.html">About Us</a></li>
+                <li id="contact"><a href="contact.html">Contact Us</a></li>
             </ul>
 			
         </nav>
     </header>
-
+	
     <section id="hero">
         <div class="hero-content">
             <h1>Discover Your Next Adventure</h1>
@@ -33,7 +32,7 @@
         </div>
     </section>
 
-    <section id="destinations">
+    <section id="destinations" style="display:none">
         <h2>Popular Destinations</h2>
         <div class="destinations-grid">
             <div class="destination-card">
@@ -54,7 +53,7 @@
         </div>
     </section>
 
-    <section id="blog">
+    <!-- <section id="blog">
         <h2>Travel Blog</h2>
         <div class="blog-grid">
             <div class="blog-post">
@@ -73,10 +72,11 @@
                 <p>A guide to the best destinations for food lovers around the world.</p>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <footer>
         <p>&copy; 2024 TravelMate. All rights reserved.</p>
     </footer>
+	<script src="travel_recommendation.js"></script>
 </body>
 </html>

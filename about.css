@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.about-company {
+    margin-bottom: 40px;
+}
+
+.about-company h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.about-company p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.team {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.team h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.team-member {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.team-member h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.team-member p:last-child {
+    margin-bottom: 0;
+}

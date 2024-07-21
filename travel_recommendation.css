@@ -47,6 +47,7 @@ header nav ul li a:hover {
     color: white;
     text-align: center;
     padding: 100px 20px;
+	height: 52vh; /*  viewport height */
 }
 
 #hero .hero-content {
@@ -78,7 +79,7 @@ header nav ul li a:hover {
 }
 
 section {
-    padding: 60px 20px;
+    padding: 15px 20px;
     text-align: center;
 }
 
@@ -87,6 +88,7 @@ section {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+	
 }
 
 .destination-card,
